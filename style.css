@@ -1,0 +1,55 @@
+body{background-color: bisque;} 
+
+box h1{padding: 20px;
+   box-sizing: border-box;
+    border: 4px solid black;
+   background-color: rgb(221, 188, 224);
+   text-align: center;
+        
+}
+    p{text-align: center;
+     text-decoration:underline;
+    letter: spacing 7px;
+    line: height 80%px;
+    font-size: 20px;
+}
+
+    img{width: 100%;
+    height: 100vh;
+object-fit:auto;}
+
+
+p{text-align: center;
+color: rgb(31, 34, 34);}
+
+h2{text-align: center;}
+h3{text-align: center;}
+
+
+ table{margin: auto;
+ width:80%;
+ height: 300px;}
+
+ td,th{
+     padding: 15px;
+     font-size: 20px;}
+
+        button{
+        background-color: orange;
+        color: white;
+        padding:15px 30px;
+        font-size: 18px;
+        border: none;
+        
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+       }
+       
+     button{position: absolute;
+     left: 50%;
+     transform: translateX(-50%);}
+               
+     #forButton{
+        background-color: red;
+       }
